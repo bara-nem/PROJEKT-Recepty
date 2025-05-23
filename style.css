@@ -67,7 +67,7 @@ section{
 footer{
 	padding: 10px;
 	max-width: 350px;
-	min-height: 200px;
+	min-height: 90px;
 }
 
 
@@ -113,4 +113,63 @@ footer{
 .menu{
 	display: flex;
 	justify-content: space-between;
+}
+
+/* TABLET */
+
+@media screen and (min-width: 540px) and (max-width: 960px) {
+
+	.kontejner{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	h1{
+		font-size: 36px;
+	}
+
+	h2{
+		font-size: 22px;
+	}
+
+	section{
+	padding: 20px;
+	max-width: 960px;
+	margin: 1px;
+	}
+
+	.orechy{
+		width: 100%;
+		min-height: 250px;
+	}
+
+	.avokado, .tacos, .cizrna, .burger{
+	min-height: 150px;
+	flex: 1 1 49%;
+	}
+}
+
+
+/* PC */
+
+@media screen and (min-width: 961px) {
+	.kontejner{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+
+	h1{
+		font-size: 48px;
+	}
+
+	h2{
+		font-size: 28px;
+	}
+
+	section{
+	padding: 20px;
+	max-width: 960px;
+	margin: 1px;
+	}
 }
