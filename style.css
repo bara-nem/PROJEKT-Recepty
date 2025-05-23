@@ -61,7 +61,6 @@ h2{
 section{
 	padding: 10px;
 	max-width: 350px;
-	min-height: 200px;
 	margin: 1px;
 }
 
@@ -80,28 +79,38 @@ footer{
 	background-image: url(images/salat.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 200px;
 }
 
 .avokado{
 	background-image: url(images/chlebicek.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 90px;
 }
 
 .tacos{
 	background-image: url(images/tacos.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 90px;
 }
 
 .cizrna{
 	background-image: url(images/cizrna.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 90px;
 }
 
 .burger{
 	background-image: url(images/burger.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 90px;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
 }
