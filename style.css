@@ -39,6 +39,7 @@ p{
 	font-size: 14px;
 	font-weight: 400;
 	color: whitesmoke;
+	margin: 0;
 	text-shadow: 3px 3px 3px rgb(34, 34, 34);
 }
 
@@ -47,6 +48,7 @@ h1{
 	font-size: 28px;
 	font-weight: 800;
 	color: whitesmoke;
+	margin: 0;
 	text-shadow: 3px 3px 3px rgb(34, 34, 34);
 }
 
@@ -55,6 +57,7 @@ h2{
 	font-size: 18px;
 	font-weight: 800;
 	color: whitesmoke;
+	margin: 0;
 	text-shadow: 3px 3px 3px rgb(34, 34, 34);
 }
 
@@ -115,6 +118,14 @@ footer{
 	justify-content: space-between;
 }
 
+.recept {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
 /* TABLET */
 
 @media screen and (min-width: 540px) and (max-width: 960px) {
@@ -122,6 +133,8 @@ footer{
 	.kontejner{
 		display: flex;
 		flex-wrap: wrap;
+		max-width: 960px;
+		flex-basis: 100%;
 	}
 
 	h1{
@@ -134,29 +147,37 @@ footer{
 
 	section{
 	padding: 20px;
-	max-width: 960px;
 	margin: 1px;
 	}
 
+
 	.orechy{
 		width: 100%;
+		max-width: 960px;
 		min-height: 250px;
 	}
 
 	.avokado, .tacos, .cizrna, .burger{
 	min-height: 150px;
+	max-width: 480px;
 	flex: 1 1 49%;
 	}
+
+	footer{
+	max-width: 960px;
+	min-height: 250px;
+}
+
 }
 
 
-/* PC */
+/* PC 
 
 @media screen and (min-width: 961px) {
 	.kontejner{
 		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
+		min-height: 400px;
+		flex-basis: 100%;
 	}
 
 	h1{
@@ -167,9 +188,16 @@ footer{
 		font-size: 28px;
 	}
 
-	section{
-	padding: 20px;
-	max-width: 960px;
-	margin: 1px;
+	.avodaco, .tacos, .burger, .cizrna{
+		display: flex;
+		flex-wrap: wrap;
+		flex: 1 1 49%;
+	}
+
+	.avodaco, .tacos, .burger, .cizrna section{
+		min-height: 200px;
+		
 	}
 }
+
+*/
