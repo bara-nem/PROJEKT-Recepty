@@ -38,16 +38,70 @@ p{
 	font-family: "Source Sans 3", sans-serif;
 	font-size: 14px;
 	font-weight: 400;
+	color: whitesmoke;
+	text-shadow: 3px 3px 3px rgb(34, 34, 34);
 }
 
 h1{
 	font-family: "Raleway", sans-serif;
 	font-size: 28px;
 	font-weight: 800;
+	color: whitesmoke;
+	text-shadow: 3px 3px 3px rgb(34, 34, 34);
 }
 
 h2{
 	font-family: "Raleway", sans-serif;
 	font-size: 18px;
 	font-weight: 800;
+	color: whitesmoke;
+	text-shadow: 3px 3px 3px rgb(34, 34, 34);
+}
+
+section{
+	padding: 10px;
+	max-width: 350px;
+	min-height: 200px;
+	margin: 1px;
+}
+
+footer{
+	padding: 10px;
+	max-width: 350px;
+	min-height: 200px;
+}
+
+
+.paticka p{
+	text-shadow: none;
+}
+
+.orechy{
+	background-image: url(images/salat.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.avokado{
+	background-image: url(images/chlebicek.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.tacos{
+	background-image: url(images/tacos.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cizrna{
+	background-image: url(images/cizrna.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.burger{
+	background-image: url(images/burger.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
