@@ -33,3 +33,21 @@ Nastav je receptům jako obrázky na pozadí (tj. nepřidávej je jako <img> do 
 Na rozložení prvků NEPOUŽÍVEJ absolutní pozicování, ale pouze flexboxy.
 Flexboxy mohou být vnořené do sebe, klidně několikrát.
 */
+
+p{
+	font-family: "Source Sans 3", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+h1{
+	font-family: "Raleway", sans-serif;
+	font-size: 28px;
+	font-weight: 800;
+}
+
+h2{
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+}
